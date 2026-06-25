@@ -234,7 +234,6 @@ main {
   margin-bottom: var(--spacing-md);
   animation: fadeInUp 0.8s ease 0.1s forwards;
   opacity: 0;
-  font-family: 'Syne', sans-serif;
 }
 
 .hero-description {
