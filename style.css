@@ -91,6 +91,7 @@ a {
   letter-spacing: -0.02em;
   color: var(--color-text);
   cursor: pointer;
+  font-family: 'Syne', sans-serif;
 }
 
 .nav-links {
