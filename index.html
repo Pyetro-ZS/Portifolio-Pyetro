@@ -3,9 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Pyetro — Desenvolvedor em Formação focado em Java, Back-end e Arquitetura de Software." />
-  <title>Pyetro — Desenvolvedor em Formação</title>
+  
+  <!-- Meta Tags SEO -->
+  <meta name="description" content="Pyetro — Desenvolvedor Backend Júnior focado em Java, APIs REST e Bancos de Dados." />
+  <meta name="keywords" content="desenvolvedor backend, java, spring boot, api rest, mysql, desenvolvedor júnior" />
+  <meta name="author" content="Pyetro" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://seu-portfolio.vercel.app/" />
+  <meta property="og:title" content="Pyetro — Desenvolvedor Backend Júnior" />
+  <meta property="og:description" content="Portfólio profissional de desenvolvedor backend especializado em Java, APIs REST e bancos de dados." />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <title>Pyetro — Desenvolvedor Backend Júnior</title>
 
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -14,111 +29,121 @@
 </head>
 <body>
 
+  <!-- SELETOR DE IDIOMA -->
+  <div class="language-selector">
+    <button class="lang-btn active" data-lang-btn="pt" aria-label="Português">
+      🇧🇷 PT
+    </button>
+    <button class="lang-btn" data-lang-btn="en" aria-label="English">
+      🇺🇸 EN
+    </button>
+    <button class="lang-btn" data-lang-btn="es" aria-label="Español">
+      🇪🇸 ES
+    </button>
+  </div>
+
+  <!-- NAVEGAÇÃO -->
   <nav class="nav">
     <div class="logo">P<span>.</span></div>
 
     <div class="nav-links">
-      <a href="#sobre">Sobre</a>
-      <a href="#experiencia">Experiência</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#skills">Skills</a>
-      <a href="#contato">Contato</a>
+      <a href="#sobre" data-i18n="nav.about">Sobre</a>
+      <a href="#experiencia" data-i18n="nav.experience">Experiência</a>
+      <a href="#projetos" data-i18n="nav.projects">Projetos</a>
+      <a href="#skills" data-i18n="nav.skills">Skills</a>
+      <a href="#contato" data-i18n="nav.contact">Contato</a>
     </div>
   </nav>
 
+  <!-- HERO SECTION -->
   <header class="hero">
     <div class="container">
 
-      <span class="hero-label">
-        Desenvolvedor em formação · Java · Back-end
+      <span class="hero-label" data-i18n="hero.label">
+        Desenvolvedor Backend · Java · APIs REST
       </span>
 
       <h1>
-        Pyetro<span>.</span>
+        <span data-i18n="hero.name">Pyetro</span><span>.</span>
       </h1>
 
-      <p class="hero-text">
-        Estudante de TI e Jovem Aprendiz na <strong>CRAFT Multimodal</strong>,
-        com formação técnica pelo <strong>CEAP</strong>.
-        Desenvolvo projetos focados em Java, arquitetura de software,
-        banco de dados e automações, buscando construir aplicações organizadas,
-        escaláveis e com lógica bem estruturada.
+      <p class="hero-text" data-i18n="hero.description">
+        Desenvolvedor Backend com foco em construção de APIs escaláveis, arquitetura de software e bancos de dados. Experiência prática com Java, Spring Boot, MySQL e boas práticas de desenvolvimento server-side.
       </p>
 
       <div class="hero-buttons">
-        <a href="#projetos" class="btn-primary">Ver projetos</a>
-        <a href="#contato" class="btn-secondary">Entrar em contato</a>
+        <a href="#projetos" class="btn-primary" data-i18n="hero.cta_projects">Ver projetos</a>
+        <a href="#contato" class="btn-secondary" data-i18n="hero.cta_contact">Entrar em contato</a>
       </div>
 
       <div class="stats">
         <div class="stat-card">
-          <h3>Java</h3>
-          <p>foco principal</p>
+          <h3 data-i18n="hero.stat1_title">Java</h3>
+          <p data-i18n="hero.stat1_desc">linguagem principal</p>
         </div>
 
         <div class="stat-card">
-          <h3>MVC</h3>
-          <p>arquitetura e organização</p>
+          <h3 data-i18n="hero.stat2_title">REST APIs</h3>
+          <p data-i18n="hero.stat2_desc">arquitetura e design</p>
         </div>
 
         <div class="stat-card">
-          <h3>MySQL</h3>
-          <p>persistência de dados</p>
+          <h3 data-i18n="hero.stat3_title">MySQL</h3>
+          <p data-i18n="hero.stat3_desc">modelagem de dados</p>
         </div>
       </div>
 
     </div>
   </header>
 
+  <!-- SOBRE MIM -->
   <section id="sobre" class="section">
     <div class="container">
-      <span class="section-label">Sobre mim</span>
-      <h2>Construindo experiência prática desde cedo</h2>
+      <span class="section-label" data-i18n="about.label">Sobre mim</span>
+      <h2 data-i18n="about.title">Construindo sistemas backend desde cedo</h2>
 
       <div class="about-grid">
 
         <div>
-          <p>
+          <p data-i18n="about.paragraph1">
             Tenho 17 anos e já atuo em ambiente corporativo como
             Jovem Aprendiz na CRAFT Multimodal, conciliando rotina
             profissional com o ensino médio e formação técnica em TI.
           </p>
 
-          <p>
-            Minha base começou em infraestrutura e suporte,
-            mas meu principal interesse evoluiu para desenvolvimento
-            de software, arquitetura de aplicações e construção
-            de sistemas organizados.
+          <p data-i18n="about.paragraph2">
+            Minha trajetória começou em infraestrutura e suporte,
+            mas rapidamente evoluiu para desenvolvimento de software server-side,
+            com foco em arquitetura de aplicações e construção de sistemas organizados.
           </p>
 
-          <p>
-            Hoje estudo principalmente Java, banco de dados,
-            back-end e organização de projetos,
-            buscando entender não apenas como implementar funcionalidades,
-            mas como estruturar aplicações de forma lógica e sustentável.
+          <p data-i18n="about.paragraph3">
+            Hoje me especializo em desenvolvimento backend: design de APIs REST,
+            modelagem de bancos de dados, autenticação/autorização, e organização
+            de projetos seguindo padrões como MVC e princípios SOLID.
           </p>
         </div>
 
         <div class="cards">
 
           <div class="info-card">
-            <h3>Foco Atual</h3>
-            <p>Java · Back-end · Banco de Dados</p>
+            <h3 data-i18n="about.card1_title">Foco Atual</h3>
+            <p data-i18n="about.card1_content">Java · Spring Boot · APIs REST · MySQL</p>
           </div>
 
           <div class="info-card">
-            <h3>Formação</h3>
-            <p>Técnico em TI — CEAP</p>
+            <h3 data-i18n="about.card2_title">Formação</h3>
+            <p data-i18n="about.card2_content">Técnico em TI — CEAP</p>
           </div>
 
           <div class="info-card">
-            <h3>Interesses</h3>
-            <p>Arquitetura · APIs · Automações</p>
+            <h3 data-i18n="about.card3_title">Interesses</h3>
+            <p data-i18n="about.card3_content">Arquitetura · Microserviços · DevOps</p>
           </div>
 
           <div class="info-card">
-            <h3>Objetivo</h3>
-            <p>Estágio / Dev Júnior</p>
+            <h3 data-i18n="about.card4_title">Objetivo</h3>
+            <p data-i18n="about.card4_content">Desenvolvedor Backend Júnior</p>
           </div>
 
         </div>
@@ -126,53 +151,56 @@
     </div>
   </section>
 
+  <!-- EXPERIÊNCIA -->
   <section id="experiencia" class="section darker">
     <div class="container">
 
-      <span class="section-label">Experiência</span>
-      <h2>Vivência profissional</h2>
+      <span class="section-label" data-i18n="experience.label">Experiência</span>
+      <h2 data-i18n="experience.title">Vivência profissional</h2>
 
       <div class="experience-card">
         <div class="experience-header">
           <div>
-            <h3>Jovem Aprendiz</h3>
-            <span>CRAFT Multimodal</span>
+            <h3 data-i18n="experience.job_title">Jovem Aprendiz</h3>
+            <span data-i18n="experience.company">CRAFT Multimodal</span>
           </div>
 
-          <small>2024 — Presente</small>
+          <small data-i18n="experience.period">2024 — Presente</small>
         </div>
 
-        <p>
+        <p data-i18n="experience.description">
           Atuação em ambiente corporativo com contato direto
           com rotinas operacionais, ferramentas internas e processos
           organizacionais.
         </p>
 
         <ul>
-          <li>Suporte a processos internos e ferramentas digitais</li>
-          <li>Contato com demandas reais e fluxo operacional</li>
-          <li>Desenvolvimento de comunicação profissional</li>
-          <li>Adaptação rápida a novas responsabilidades</li>
+          <li data-i18n="experience.achievement1">Suporte a processos internos e ferramentas digitais</li>
+          <li data-i18n="experience.achievement2">Contato com demandas reais e fluxo operacional</li>
+          <li data-i18n="experience.achievement3">Desenvolvimento de comunicação profissional</li>
+          <li data-i18n="experience.achievement4">Adaptação rápida a novas responsabilidades</li>
         </ul>
       </div>
 
     </div>
   </section>
 
+  <!-- PROJETOS -->
   <section id="projetos" class="section">
     <div class="container">
 
-      <span class="section-label">Projetos</span>
-      <h2>Projetos em destaque</h2>
+      <span class="section-label" data-i18n="projects.label">Projetos</span>
+      <h2 data-i18n="projects.title">Projetos backend em destaque</h2>
 
       <div class="projects-grid">
 
+        <!-- Projeto 1 -->
         <div class="project-card featured">
-          <h3>Sistema de Gerenciamento em Java</h3>
+          <h3 data-i18n="projects.project1_title">Sistema de Gerenciamento em Java</h3>
 
-          <p>
+          <p data-i18n="projects.project1_desc">
             Aplicação desktop desenvolvida em Java com arquitetura MVC
-            e integração com MySQL.
+            e integração com MySQL via JDBC.
           </p>
 
           <div class="tags">
@@ -184,44 +212,36 @@
           </div>
 
           <ul>
-            <li>Separação entre interface e regras de negócio</li>
-            <li>Persistência de dados com JDBC</li>
-            <li>Estrutura organizada e reutilizável</li>
-            <li>Tratamento de exceções</li>
+            <li data-i18n="projects.project1_feature1">Arquitetura MVC com separação de responsabilidades</li>
+            <li data-i18n="projects.project1_feature2">Persistência de dados com JDBC e prepared statements</li>
+            <li data-i18n="projects.project1_feature3">Estrutura organizada e código reutilizável</li>
+            <li data-i18n="projects.project1_feature4">Tratamento robusto de exceções e logging</li>
           </ul>
-        </div>
 
-        <div class="project-card">
-          <h3>Portfólio Profissional</h3>
-
-          <p>
-            Site pessoal responsivo desenvolvido do zero
-            utilizando HTML, CSS e JavaScript.
-          </p>
-
-          <div class="tags">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Vercel</span>
+          <div class="project-links">
+            <a href="https://github.com/Pyetro-ZS/seu-projeto" target="_blank" class="btn-primary" data-i18n="projects.view_code">Ver código</a>
+            <a href="pages/projects/projeto-java-mvc.html" class="btn-secondary" data-i18n="projects.view_details">Ver detalhes</a>
           </div>
         </div>
+
+        <!-- Adicione mais cards de projetos aqui seguindo o mesmo padrão -->
 
       </div>
 
     </div>
   </section>
 
+  <!-- SKILLS -->
   <section id="skills" class="section darker">
     <div class="container">
 
-      <span class="section-label">Skills</span>
-      <h2>Tecnologias e ferramentas</h2>
+      <span class="section-label" data-i18n="skills.label">Stack Técnica</span>
+      <h2 data-i18n="skills.title">Tecnologias e competências backend</h2>
 
       <div class="skills-grid">
 
         <div class="skill-box">
-          <h3>Linguagens</h3>
+          <h3 data-i18n="skills.languages_title">Linguagens</h3>
 
           <div class="tags">
             <span>Java</span>
@@ -232,32 +252,48 @@
         </div>
 
         <div class="skill-box">
-          <h3>Back-end</h3>
+          <h3 data-i18n="skills.backend_title">Frameworks & Backend</h3>
 
           <div class="tags">
+            <span>Spring Boot</span>
+            <span>Node.js</span>
+            <span>Express</span>
             <span>JDBC</span>
-            <span>MVC</span>
-            <span>POO</span>
           </div>
         </div>
 
         <div class="skill-box">
-          <h3>Banco de Dados</h3>
+          <h3 data-i18n="skills.database_title">Bancos de Dados</h3>
 
           <div class="tags">
             <span>MySQL</span>
-            <span>Modelagem</span>
+            <span>PostgreSQL</span>
+            <span>MongoDB</span>
+            <span>Redis</span>
           </div>
         </div>
 
         <div class="skill-box">
-          <h3>Ferramentas</h3>
+          <h3 data-i18n="skills.tools_title">Ferramentas & DevOps</h3>
 
           <div class="tags">
             <span>Git</span>
-            <span>GitHub</span>
-            <span>IntelliJ</span>
-            <span>Vercel</span>
+            <span>Docker</span>
+            <span>Postman</span>
+            <span>IntelliJ IDEA</span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <h3 data-i18n="skills.concepts_title">Conceitos & Arquitetura</h3>
+
+          <div class="tags">
+            <span>REST APIs</span>
+            <span>MVC</span>
+            <span>POO</span>
+            <span>SOLID</span>
+            <span>Design Patterns</span>
+            <span>JWT Auth</span>
           </div>
         </div>
 
@@ -265,28 +301,39 @@
     </div>
   </section>
 
+  <!-- CONTATO -->
   <section id="contato" class="section">
     <div class="container">
 
-      <span class="section-label">Contato</span>
-      <h2>Vamos conversar</h2>
+      <span class="section-label" data-i18n="contact.label">Contato</span>
+      <h2 data-i18n="contact.title">Vamos conversar</h2>
 
       <div class="contact-box">
-        <p>
-          Disponível para oportunidades de estágio,
-          desenvolvimento júnior e projetos.
+        <p data-i18n="contact.description">
+          Disponível para oportunidades como Desenvolvedor Backend Júnior,
+          estágios em desenvolvimento de APIs e projetos backend.
         </p>
 
         <div class="contact-links">
-          <a href="#">GitHub</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Email</a>
+          <a href="https://github.com/Pyetro-ZS" target="_blank" rel="noopener" data-i18n="contact.github">GitHub</a>
+          <a href="#" target="_blank" rel="noopener" data-i18n="contact.linkedin">LinkedIn</a>
+          <a href="mailto:seu-email@exemplo.com" data-i18n="contact.email">Email</a>
         </div>
       </div>
 
     </div>
   </section>
 
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p data-i18n="footer.rights">© 2024 Pyetro. Todos os direitos reservados.</p>
+      <p data-i18n="footer.built">Construído com HTML, CSS e JavaScript</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
