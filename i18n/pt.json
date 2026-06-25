@@ -1,5 +1,88 @@
 {
-  "hero.title": "Desenvolvedor Backend",
-  "hero.description": "Focado em Java, APIs, Banco de Dados e Arquitetura de Software.",
-  "projects.title": "Projetos em Destaque"
+  "meta": {
+    "title": "Pyetro — Desenvolvedor Backend Júnior",
+    "description": "Desenvolvedor Backend focado em Java, APIs REST, arquitetura de software e bancos de dados.",
+    "keywords": "desenvolvedor backend, java, spring boot, api rest, mysql, desenvolvedor júnior"
+  },
+  "nav": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "skills": "Skills",
+    "contact": "Contato"
+  },
+  "hero": {
+    "label": "Desenvolvedor Backend · Java · APIs REST",
+    "name": "Pyetro",
+    "description": "Desenvolvedor Backend com foco em construção de APIs escaláveis, arquitetura de software e bancos de dados. Experiência prática com Java, Spring Boot, MySQL e boas práticas de desenvolvimento server-side.",
+    "cta_projects": "Ver projetos",
+    "cta_contact": "Entrar em contato",
+    "stat1_title": "Java",
+    "stat1_desc": "linguagem principal",
+    "stat2_title": "REST APIs",
+    "stat2_desc": "arquitetura e design",
+    "stat3_title": "MySQL",
+    "stat3_desc": "modelagem de dados"
+  },
+  "about": {
+    "label": "Sobre mim",
+    "title": "Construindo sistemas backend desde cedo",
+    "paragraph1": "Tenho 17 anos e já atuo em ambiente corporativo como Jovem Aprendiz na CRAFT Multimodal, conciliando rotina profissional com o ensino médio e formação técnica em TI.",
+    "paragraph2": "Minha trajetória começou em infraestrutura e suporte, mas rapidamente evoluiu para desenvolvimento de software server-side, com foco em arquitetura de aplicações e construção de sistemas organizados.",
+    "paragraph3": "Hoje me especializo em desenvolvimento backend: design de APIs REST, modelagem de bancos de dados, autenticação/autorização, e organização de projetos seguindo padrões como MVC e princípios SOLID.",
+    "card1_title": "Foco Atual",
+    "card1_content": "Java · Spring Boot · APIs REST · MySQL",
+    "card2_title": "Formação",
+    "card2_content": "Técnico em TI — CEAP",
+    "card3_title": "Interesses",
+    "card3_content": "Arquitetura · Microserviços · DevOps",
+    "card4_title": "Objetivo",
+    "card4_content": "Desenvolvedor Backend Júnior"
+  },
+  "experience": {
+    "label": "Experiência",
+    "title": "Vivência profissional",
+    "job_title": "Jovem Aprendiz",
+    "company": "CRAFT Multimodal",
+    "period": "2024 — Presente",
+    "description": "Atuação em ambiente corporativo com contato direto com rotinas operacionais, ferramentas internas e processos organizacionais.",
+    "achievement1": "Suporte a processos internos e ferramentas digitais",
+    "achievement2": "Contato com demandas reais e fluxo operacional",
+    "achievement3": "Desenvolvimento de comunicação profissional",
+    "achievement4": "Adaptação rápida a novas responsabilidades"
+  },
+  "projects": {
+    "label": "Projetos",
+    "title": "Projetos backend em destaque",
+    "view_details": "Ver detalhes",
+    "view_code": "Ver código",
+    "view_demo": "Ver demo",
+    "project1_title": "Sistema de Gerenciamento em Java",
+    "project1_desc": "Aplicação desktop desenvolvida em Java com arquitetura MVC e integração com MySQL via JDBC.",
+    "project1_feature1": "Arquitetura MVC com separação de responsabilidades",
+    "project1_feature2": "Persistência de dados com JDBC e prepared statements",
+    "project1_feature3": "Estrutura organizada e código reutilizável",
+    "project1_feature4": "Tratamento robusto de exceções e logging"
+  },
+  "skills": {
+    "label": "Stack Técnica",
+    "title": "Tecnologias e competências backend",
+    "languages_title": "Linguagens",
+    "backend_title": "Frameworks & Backend",
+    "database_title": "Bancos de Dados",
+    "tools_title": "Ferramentas & DevOps",
+    "concepts_title": "Conceitos & Arquitetura"
+  },
+  "contact": {
+    "label": "Contato",
+    "title": "Vamos conversar",
+    "description": "Disponível para oportunidades como Desenvolvedor Backend Júnior, estágios em desenvolvimento de APIs e projetos backend.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+  "footer": {
+    "rights": "© 2024 Pyetro. Todos os direitos reservados.",
+    "built": "Construído com HTML, CSS e JavaScript"
+  }
 }
