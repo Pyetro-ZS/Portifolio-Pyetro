@@ -1,5 +1,88 @@
 {
-  "hero.title": "Backend Developer",
-  "hero.description": "Focused on Java, APIs, Databases and Software Architecture.",
-  "projects.title": "Featured Projects"
+  "meta": {
+    "title": "Pyetro — Junior Backend Developer",
+    "description": "Backend Developer focused on Java, REST APIs, software architecture and databases.",
+    "keywords": "backend developer, java, spring boot, rest api, mysql, junior developer"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "label": "Backend Developer · Java · REST APIs",
+    "name": "Pyetro",
+    "description": "Backend Developer focused on building scalable APIs, software architecture and databases. Hands-on experience with Java, Spring Boot, MySQL and server-side development best practices.",
+    "cta_projects": "View projects",
+    "cta_contact": "Get in touch",
+    "stat1_title": "Java",
+    "stat1_desc": "primary language",
+    "stat2_title": "REST APIs",
+    "stat2_desc": "architecture & design",
+    "stat3_title": "MySQL",
+    "stat3_desc": "data modeling"
+  },
+  "about": {
+    "label": "About me",
+    "title": "Building backend systems from an early age",
+    "paragraph1": "I'm 17 years old and already working in a corporate environment as a Young Apprentice at CRAFT Multimodal, balancing professional routine with high school and technical IT training.",
+    "paragraph2": "My journey started in infrastructure and support, but quickly evolved to server-side software development, focusing on application architecture and building organized systems.",
+    "paragraph3": "Today I specialize in backend development: REST API design, database modeling, authentication/authorization, and project organization following patterns like MVC and SOLID principles.",
+    "card1_title": "Current Focus",
+    "card1_content": "Java · Spring Boot · REST APIs · MySQL",
+    "card2_title": "Education",
+    "card2_content": "IT Technician — CEAP",
+    "card3_title": "Interests",
+    "card3_content": "Architecture · Microservices · DevOps",
+    "card4_title": "Goal",
+    "card4_content": "Junior Backend Developer"
+  },
+  "experience": {
+    "label": "Experience",
+    "title": "Professional background",
+    "job_title": "Young Apprentice",
+    "company": "CRAFT Multimodal",
+    "period": "2024 — Present",
+    "description": "Working in a corporate environment with direct contact with operational routines, internal tools and organizational processes.",
+    "achievement1": "Support for internal processes and digital tools",
+    "achievement2": "Contact with real demands and operational flow",
+    "achievement3": "Development of professional communication skills",
+    "achievement4": "Quick adaptation to new responsibilities"
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "Featured backend projects",
+    "view_details": "View details",
+    "view_code": "View code",
+    "view_demo": "View demo",
+    "project1_title": "Java Management System",
+    "project1_desc": "Desktop application developed in Java with MVC architecture and MySQL integration via JDBC.",
+    "project1_feature1": "MVC architecture with separation of concerns",
+    "project1_feature2": "Data persistence with JDBC and prepared statements",
+    "project1_feature3": "Organized structure and reusable code",
+    "project1_feature4": "Robust exception handling and logging"
+  },
+  "skills": {
+    "label": "Tech Stack",
+    "title": "Backend technologies and skills",
+    "languages_title": "Languages",
+    "backend_title": "Frameworks & Backend",
+    "database_title": "Databases",
+    "tools_title": "Tools & DevOps",
+    "concepts_title": "Concepts & Architecture"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's talk",
+    "description": "Available for opportunities as Junior Backend Developer, internships in API development and backend projects.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+  "footer": {
+    "rights": "© 2024 Pyetro. All rights reserved.",
+    "built": "Built with HTML, CSS and JavaScript"
+  }
 }
