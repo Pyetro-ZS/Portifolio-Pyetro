@@ -181,24 +181,26 @@
 
           <article class="project-card">
             <div class="project-content">
-              <h3>API REST com Spring Boot</h3>
+              <h3>Traking</h3>
               <p>
-                Sistema backend completo com autenticação JWT, validações
-                e documentação Swagger.
+                Simular um cenário real onde acessos vindos de QR Codes (como em 
+                eventos, cartazes ou campanhas físicas) possam ser registrados 
+                automaticamente, sem exigir login ou qualquer interação do usuário.
               </p>
 
               <div class="tags">
+                <span>Java</span>
                 <span>Spring Boot</span>
-                <span>JWT</span>
-                <span>PostgreSQL</span>
-                <span>Swagger</span>
+                <span>Spring Data JPA</span>
+                <span>H2 Database</span>
+                <span>Insomnia</span>
               </div>
 
               <ul class="feature-list">
-                <li>Autenticação e autorização com JWT</li>
-                <li>CRUD completo com validações robustas</li>
-                <li>Documentação automática da API</li>
-                <li>Tratamento de erros centralizado</li>
+                <li>O usuário acessa um link (ou escaneia um QR Code)</li>
+                <li>endpoint /track recebe a requisição</li>
+                <li>sistema registra automaticamente os dados</li>
+                <li>O usuário é redirecionado imediatamente</li>
               </ul>
 
               <div class="project-actions">
