@@ -11,7 +11,7 @@
 - HTML5
 - CSS3
 - JavaScript
-- Deploy recomendado: Vercel
+- Deploy Vercel
 
 ## Objetivo
 
