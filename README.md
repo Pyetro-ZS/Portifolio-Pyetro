@@ -15,6 +15,5 @@
 
 ## Objetivo
 
-Portfólio profissional focado em posicionamento técnico,
-arquitetura visual moderna e apresentação estratégica
-de projetos e experiência.
+Portfólio profissional focado em desenvolvimento de software backend,
+Java, Spring Boot, APIs REST e apresentação de projetos técnicos.
